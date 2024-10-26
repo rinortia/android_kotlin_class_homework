@@ -10,4 +10,8 @@ package com.example.kotlinclasshomework.kotlinClass
  */
 fun main() {
     // TODO здесь нужно создать объект своего класса и вызывать у него методы haveLunch() и goHome()
+    val ProductManager = ProductManager()
+    println("Я продакт-менеджер нашей команды")
+    ProductManager.haveLunch()
+    ProductManager.goHome()
 }
